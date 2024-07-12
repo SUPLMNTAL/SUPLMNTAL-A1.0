@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>SUPLMNTAL | Electrical Theory. Made. Practical.</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <img src="SUPLMNTAL Icon.png" alt="SUPLMNTAL company logo" class="logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="sample.html">AC Theory</a></li>
+                <button><a href="#">Sign In</a></button>
+                <button><a href="#">Sign Up</a></button>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="form">
+        <div class="heading">
+            <h1>Use the following form to contact us about product feedback, platform issues or general queries</h1>
+        </div>
+        <form action="#" method="post">
+            <fieldset class="contact-us">
+                <label for="contact-reason">What's your reason for contacting us today?
+                    <select name="contact-reason" id="contact-reason" required>
+                        <option value="" selected hidden>Select an option</option>
+                        <option value="1">General Enquiry</option>
+                        <option value="2">Product Feedback</option>
+                        <option value="3">Platform Issues or Bugs</option>
+                        <option value="4">Complaints</option>
+                    </select>
+                </label>
+
+                <label for="first-name">First Name:
+                    <input type="text" id="first-name" name="" placeholder="First Name" required>
+                </label>
+
+                <label for="surname">Surname:
+                    <input type="text" id="surname" name="" placeholder="Surname" required>
+                </label>
+
+                <label for="phone-number">Mobile:
+                    <input type="number" id="phone-number" name="" placeholder="Mobile Number" minlength="10" maxlength="10" required>
+                </label>
+
+                <label for="email">Email Address:
+                    <input type="email" id="email" name="" placeholder="Email Address" required>
+                </label>
+
+                <label for="explanation">Could you please explain to us how we can help you?
+                    <textarea name="" id="explanation" placeholder="I love SUPLMNTAL for my Cert III course..." rows="5" cols="100" minlength="50" maxlength="1000" required></textarea>
+                </label>
+
+                <label for="terms-and-conditions">
+                    <input type="checkbox" name="terms-and-conditions" id="terms-and-conditions" class="checkbox" required>
+                    Do you agree to our <a href="">terms and conditions</a>?
+                </label>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
