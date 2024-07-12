@@ -105,3 +105,50 @@ label:last-of-type{
 input[type="checkbox"] {
     width: unset;
 }
+
+.sample {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+}
+
+.ac-theory {
+    text-align: center;
+    margin: auto;
+}
+
+.imgone {
+    padding: 25px;
+}
+
+.imgtwo {
+    padding: 25px;
+}
+
+.imgthree {
+    padding: 25px;
+}
+
+.imgfour {
+    padding: 25px;
+}
+
+.imgfive {
+    padding: 25px;
+}
+
+.imgsix {
+    padding: 25px;
+}
+
+.sample img {
+    width: 300px;
+    height: auto;
+}
