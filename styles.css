@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
-    list-style-type: none;
+    font-family: "Montserrat";
 }
 
 h1, h2 {
@@ -124,31 +124,26 @@ input[type="checkbox"] {
     margin: auto;
 }
 
-.imgone {
-    padding: 25px;
-}
-
-.imgtwo {
-    padding: 25px;
-}
-
-.imgthree {
-    padding: 25px;
-}
-
-.imgfour {
-    padding: 25px;
-}
-
-.imgfive {
-    padding: 25px;
-}
-
-.imgsix {
+.imgone, .imgtwo, .imgthree, .imgfour, .imgfive, .imgsix {
     padding: 25px;
 }
 
 .sample img {
     width: 300px;
     height: auto;
+}
+
+.about-us {
+    width: 75%;
+    margin: auto;
+}
+
+.about-us h1 {
+    text-align: center;
+}
+
+.about-us p, .about-us ul, .about-us ol {
+    text-align: justify;
+    width: 50%;
+    margin: 15px auto;
 }
